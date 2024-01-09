@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+header{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    background: #2c4dac;
+
+}
+
+form {
+    margin: 5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #625ecc;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+#invader {
+    display: flex;
+    justify-content: center;
+    min-height: 90%;
+} 
+
+.mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rowDiv{
+    height: 20px;
+    width: 20px;
+    background: #d2dae2;
+    border: solid #808f9b 2px;
+
+}
+
+.all__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+}
+
+
